@@ -48,7 +48,6 @@ Check Fees For Overseas Student
 Click Apply Link
     Click Link  css:${clickApply}  
 
-
 *** Test Cases ***
 demoTest
     Open Browser Chrome

@@ -1,0 +1,23 @@
+
+
+
+
+#git untracked files/Changes to be committed
+https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
+
+#git tutorial
+https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013744142037508cf42e51debf49668810645e02887691000
+
+
+#git username vs Github username
+~ https://help.github.com/en/articles/setting-your-username-in-git
+
+
+#为什么我另一个github账号可以直接向我的仓库提交东西
+~ git 本地仓库的账户应该只是作为标识，都可以 git commit 。
+我有两个账户 A , B。本地仓库由 A 创建，后来全局设置成 B,照样可以往 A 的这个项目提交。
+以上提及的账户都只是通过 git config 设置了 user.name 和 user.email。并没有密码什么的。
+这些都是 git 的东西。
+然后是 push 到 GitHub 上。
+这个步骤才需要 GitHub 账户及密码（或者是 SSH 密钥）。
+这步只要用户成功登录就可以提交。
