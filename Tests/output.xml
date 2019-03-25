@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20190325 10:57:26.526" generator="Robot 3.0.4 (Python 2.7.15 on win32)">
+<suite source="C:\TLConsulting\RobotScripts\testdemo\Tests\testScenario2.robot" id="s1" name="testScenario2">
+<test id="s1-t1" name="demoTest">
+<kw name="Open Browser Chrome">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${mainWebsite}</arg>
+<arg>${browserType}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:26.740" level="INFO">Opening browser 'Chrome' to base url 'https://sydney.edu.au/'.</msg>
+<status status="PASS" endtime="20190325 10:57:34.014" starttime="20190325 10:57:26.740"></status>
+</kw>
+<status status="PASS" endtime="20190325 10:57:34.014" starttime="20190325 10:57:26.739"></status>
+</kw>
+<kw name="Click Study">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>id=${studyElement}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:34.016" level="INFO">Clicking element 'id=global-navigation-study'.</msg>
+<status status="PASS" endtime="20190325 10:57:35.712" starttime="20190325 10:57:34.016"></status>
+</kw>
+<status status="PASS" endtime="20190325 10:57:35.712" starttime="20190325 10:57:34.015"></status>
+</kw>
+<kw name="Click Admission">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>id:${admissionElement}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:35.714" level="INFO">Clicking element 'id:left-hand-navigation-admissions'.</msg>
+<status status="PASS" endtime="20190325 10:57:37.066" starttime="20190325 10:57:35.713"></status>
+</kw>
+<status status="PASS" endtime="20190325 10:57:37.066" starttime="20190325 10:57:35.713"></status>
+</kw>
+<kw name="Click Apply">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>id:${applyElement}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:37.068" level="INFO">Clicking element 'id:left-hand-navigation-apply'.</msg>
+<status status="PASS" endtime="20190325 10:57:38.409" starttime="20190325 10:57:37.068"></status>
+</kw>
+<status status="PASS" endtime="20190325 10:57:38.409" starttime="20190325 10:57:37.067"></status>
+</kw>
+<kw name="Click How to Apply">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>id:${howToApplyElement}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:38.411" level="INFO">Clicking element 'id:left-hand-navigation-how-to-apply'.</msg>
+<status status="PASS" endtime="20190325 10:57:39.566" starttime="20190325 10:57:38.410"></status>
+</kw>
+<status status="PASS" endtime="20190325 10:57:39.566" starttime="20190325 10:57:38.410"></status>
+</kw>
+<kw name="Click Postgraduate Coursework">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>css:${postgraduateCoursework}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:39.568" level="INFO">Clicking element 'css:[title="Postgraduate coursework as a domestic or international student"]'.</msg>
+<status status="PASS" endtime="20190325 10:57:39.741" starttime="20190325 10:57:39.567"></status>
+</kw>
+<status status="PASS" endtime="20190325 10:57:39.742" starttime="20190325 10:57:39.567"></status>
+</kw>
+<kw name="Click Find a Course">
+<kw name="Click Link" library="Selenium2Library">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>link:${findCourseLink}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:39.743" level="INFO">Clicking link 'link:Find a course'.</msg>
+<status status="PASS" endtime="20190325 10:57:41.534" starttime="20190325 10:57:39.743"></status>
+</kw>
+<status status="PASS" endtime="20190325 10:57:41.535" starttime="20190325 10:57:39.742"></status>
+</kw>
+<kw name="Search for Course">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element ``locator`` appears on current page.</doc>
+<arguments>
+<arg>css:${searchButton}</arg>
+</arguments>
+<status status="PASS" endtime="20190325 10:57:41.550" starttime="20190325 10:57:41.536"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=keywords</arg>
+<arg>software</arg>
+</arguments>
+<msg timestamp="20190325 10:57:41.550" level="INFO">Typing text 'software' into text field 'name=keywords'.</msg>
+<status status="PASS" endtime="20190325 10:57:41.738" starttime="20190325 10:57:41.550"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>css:${searchButton}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:41.738" level="INFO">Clicking element 'css:div.searchButtonColumn'.</msg>
+<status status="PASS" endtime="20190325 10:57:43.757" starttime="20190325 10:57:41.738"></status>
+</kw>
+<status status="PASS" endtime="20190325 10:57:43.758" starttime="20190325 10:57:41.535"></status>
+</kw>
+<kw name="Click Search Results">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element ``locator`` appears on current page.</doc>
+<arguments>
+<arg>css:${firstSearchResult}</arg>
+</arguments>
+<status status="PASS" endtime="20190325 10:57:43.782" starttime="20190325 10:57:43.759"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>css:${firstSearchResult}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:43.783" level="INFO">Clicking element 'css:ul.b-component li:first-of-type'.</msg>
+<status status="PASS" endtime="20190325 10:57:46.215" starttime="20190325 10:57:43.783"></status>
+</kw>
+<status status="PASS" endtime="20190325 10:57:46.215" starttime="20190325 10:57:43.758"></status>
+</kw>
+<kw name="Select Start Study Year">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>id=${startStudyYear}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:46.218" level="INFO">Clicking element 'id=b-js-personalisation-form-start-studying-button'.</msg>
+<status status="PASS" endtime="20190325 10:57:46.327" starttime="20190325 10:57:46.217"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${year2019}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:46.328" level="INFO">Clicking element '//li[contains(text(),'2019')]'.</msg>
+<status status="PASS" endtime="20190325 10:57:46.726" starttime="20190325 10:57:46.328"></status>
+</kw>
+<status status="PASS" endtime="20190325 10:57:46.727" starttime="20190325 10:57:46.217"></status>
+</kw>
+<kw name="Select Student Comes From">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${studentComesFrom}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:46.728" level="INFO">Clicking element 'b-js-personalisation-form-citizenship-type-button'.</msg>
+<status status="PASS" endtime="20190325 10:57:47.096" starttime="20190325 10:57:46.728"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${internationalStudent}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:47.096" level="INFO">Clicking element '//li[contains(text(),'an International student')]'.</msg>
+<status status="PASS" endtime="20190325 10:57:47.292" starttime="20190325 10:57:47.096"></status>
+</kw>
+<status status="PASS" endtime="20190325 10:57:47.292" starttime="20190325 10:57:46.727"></status>
+</kw>
+<kw name="Check Fees For Overseas Student">
+<kw name="Element Should Contain" library="Selenium2Library">
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<arguments>
+<arg>css=${overseasStudentFeeField}</arg>
+<arg>${overseasStudentFee}</arg>
+</arguments>
+<msg timestamp="20190325 10:57:47.343" level="INFO">Element 'css=[data-template="b-js-fees-template"] span' contains text '$46,500'.</msg>
+<status status="PASS" endtime="20190325 10:57:47.343" starttime="20190325 10:57:47.293"></status>
+</kw>
+<status status="PASS" endtime="20190325 10:57:47.343" starttime="20190325 10:57:47.292"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190325 10:57:49.578" starttime="20190325 10:57:47.344"></status>
+</kw>
+<status status="PASS" endtime="20190325 10:57:49.579" critical="yes" starttime="20190325 10:57:26.738"></status>
+</test>
+<status status="PASS" endtime="20190325 10:57:49.582" starttime="20190325 10:57:26.529"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="testScenario2" pass="1">testScenario2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
